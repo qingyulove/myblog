@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <meta name="keywords" content="个人博客,个人博客模板,响应式" />
+    <meta name="description" content="王晴雨个人博客，在前端新技术的路上探索一去不返。" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/base.css' />
+      <!--[if lt IE 9]>
+      <script src="./javascript/modernizr.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+  <div class="wrapper">
+    {{> header}}
+    {{{body}}}
+    {{> sidebar}}
+     <div class="clearfloat"></div>
+     {{> footer}}
+   </div>
+  </body>
+</html>
